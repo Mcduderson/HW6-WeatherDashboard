@@ -1,14 +1,18 @@
 $(document).ready(function(){
 
+    //my array of searched cities.
     var history = JSON.parse(localStorage.getItem("city")) || []
-        
+    
+    //function to generate last search results on page load.
     if(history.length>0){
         gatherWeatherInfo(history[0]);
         renderButtons();
     }
 
+    //globally available cityName variable.
     var cityName;
 
+    //on click function to validate, unshift to array, and pass the value to gatherWeatherInfo function.
     $('#searchButton').on("click", function(){
 
         cityName = $('#searchInput').val();
@@ -22,11 +26,13 @@ $(document).ready(function(){
         gatherWeatherInfo(cityName);
     })
 
+    //onclick for array of buttons to be able to search previously used cities.
     $(document).on('click','.arrayBtn',function(){
         cityName = $(this).attr("id")
         gatherWeatherInfo(cityName);
     });
 
+    //main function that calls on three APIs for weather info and either appends or creates elements on the page.
     function gatherWeatherInfo(cityName){
         
         localStorage.setItem("city", JSON.stringify(history));
@@ -126,11 +132,7 @@ $(document).ready(function(){
         renderButtons();
     }        
 
-
-
-            
-
-
+    //function to render array values to page as buttons.
     function renderButtons(){
         $('#arraySection').empty();
         for(c=0;c<history.length;c++){
