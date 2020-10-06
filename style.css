@@ -1,3 +1,23 @@
 .cStyle{
     background-color: lightgray;
 }
+
+.inline{
+    display: inline;
+    max-width: 200px;
+}
+
+.favorable{
+    background-color: green;
+    
+}
+
+.moderate{
+    background-color: yellow;
+    
+}
+
+.severe{
+    background-color: red;
+    
+}
