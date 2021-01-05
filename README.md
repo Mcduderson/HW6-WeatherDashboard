@@ -1,33 +1,36 @@
-# HW6-WeatherDashboard
+![GitHub license](https://img.shields.io/badge/license-None-Black.svg)
+  # Weather Dashboard
 
-## Purpose
-A weather dashboard which displays current weather and forecast for a searched city. Users can search for a city, and if found the app will return the current weather, as well as a forecast of the next 5 days. The user's search history is saved as a button for them to quickly check the weather of that city again.
+  ## Description
+  A weather dashboard which displays current weather and forecast for a searched city. Users can search for a city, and if found the app will return the current weather, as well as a forecast of the next 5 days. The user's search history is saved as a button for them to quickly check the weather of that city again.
+  <br>
+  <a href="https://mcduderson.github.io/HW6-WeatherDashboard/">Deployed App</a>
 
-### User Story
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+  ## Table of Contents
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [License](#license)
+  5. [Contributing](#contributing)
+  6. [Tests](#tests)
+  7. [Questions](#questions)
 
-#### Acceptance Criteria
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-WHEN I open the weather dashboard
-THEN I am presented with the last searched city forecast
+  ## Installation
+  No installation needed, please visit the deployed app or repo link if you would like to see the website/code.
 
-##### Screen shot of deployed application
-<img src="screenshot.png">
+  ## Usage
+  <img src="./screenshot.png">
 
-##### Links to deployed application and repo.
+  ## License
+  This application is licensed under the None license.
 
-https://mcduderson.github.io/HW6-WeatherDashboard/
+  ## Contributing
+  This project is not open to contribution at this time.
 
-https://github.com/Mcduderson/HW6-WeatherDashboard
+  ## Tests
+  No test suite, manual tests performed
+
+  ## Questions
+  <a href="https://github.com/Mcduderson">GitHub Profile</a>
+  <br>
+  For questions I can be reached at e.payne000@gmail.com
